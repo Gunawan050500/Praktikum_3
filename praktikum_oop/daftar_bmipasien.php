@@ -2,10 +2,11 @@
     require 'class_bmipasien.php';
 
     $data_bmi = [
-        ['nama' => 'Gugun', 'umur' => 20, 'jenis_kelamin' => 'Laki-laki', 'berat' => 47, 'tinggi' => 160],
-        ['nama' => 'Jamal', 'umur' => 19, 'jenis_kelamin' => 'Laki-laki', 'berat' => 45, 'tinggi' => 155],
+        ['nama' => 'Gugun', 'umur' => 20, 'jenis_kelamin' => 'Laki-laki', 'berat' => 47, 'tinggi' => 155],
+        ['nama' => 'Jamal', 'umur' => 19, 'jenis_kelamin' => 'Laki-laki', 'berat' => 63, 'tinggi' => 160],
         ['nama' => 'Maemun', 'umur' => 22, 'jenis_kelamin' => 'Perempuan', 'berat' => 60, 'tinggi' => 171],
-        ['nama' => 'Munaroh', 'umur' => 28, 'jenis_kelamin' => 'Perempuan', 'berat' => 71, 'tinggi' => 181],
+        ['nama' => 'Munaroh', 'umur' => 28, 'jenis_kelamin' => 'Perempuan', 'berat' => 98, 'tinggi' => 181],
+        ['nama' => 'Malih', 'umur' => 48, 'jenis_kelamin' => 'Laki-laki', 'berat' => 55, 'tinggi' => 167],
     ];
     $nomor=1;
 ?>
@@ -25,6 +26,8 @@ body {
 }
 </style>
 <body>
+<div class="container">
+<h1>Data BMI Pasien</h1></div>
 <div class="container">
     <table class="table table-dark table-striped">
     <thead>

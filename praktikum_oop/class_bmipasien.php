@@ -15,7 +15,10 @@ class BmiPasien {
     public $berat;
     public $tinggi;
 
-    function __construct($berat, $tinggi){
+    function __construct($nama, $umur, $jenis_kelamin, $berat, $tinggi){
+        $this->nama = $nama;
+        $this->umur = $umur;
+        $this->jenis_kelamin = $jenis_kelamin;
         $this->berat = $berat;
         $this->tinggi = $tinggi;
     }
@@ -40,7 +43,6 @@ class BmiPasien {
 
 }
 
-$bmi1 = new BmiPasien($berat_badan, $tinggi_badan);
-$_array = [$nama,$kelamin,$umur,$berat_badan,$tinggi_badan,$bmi1->hasilBMI(),$bmi1->statusBMI()];
+$bmi1 = new BmiPasien($nama, $umur, $jenis_kelamin, $berat_badan, $tinggi_badan);
 
 ?>
